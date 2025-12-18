@@ -1,0 +1,118 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up", "Hi bot", "Greetings"],
+      "responses": ["Hello! How can I help you today?", "Hi! What are you working on?", "Hey! Ask me anything about study or coding."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "See ya", "I am leaving", "Talk later"],
+      "responses": ["Goodbye! Keep learning 🚀", "See you later!", "Bye! Come back anytime."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That helped", "Appreciate it", "Thx"],
+      "responses": ["You're welcome!", "Happy to help.", "Anytime — keep going!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "What can you do?", "How can you help me?", "Commands", "Guide me"],
+      "responses": [
+        "I can help with study tips, exam prep, coding guidance, resumes, and interview basics. Try asking: 'How do I start Python?' or 'How to prepare for exams?'."
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": ["Who are you?", "What are you?", "Tell me about yourself", "Are you a chatbot?"],
+      "responses": [
+        "I'm a student-friendly chatbot. I classify your intent and respond, and I can also answer some FAQs when I'm not confident."
+      ]
+    },
+    {
+      "tag": "programming_basics",
+      "patterns": ["What is programming?", "What is coding?", "What is software development?"],
+      "responses": [
+        "Programming is writing instructions (code) that a computer can execute to solve problems or automate tasks."
+      ]
+    },
+    {
+      "tag": "learn_python",
+      "patterns": ["How do I learn Python?", "Python roadmap", "Python for beginners", "Where to start Python"],
+      "responses": [
+        "Start with basics (variables, loops, functions), then practice on small projects (calculator, to-do, file organizer). Finally learn OOP + APIs + a framework (Flask/Django)."
+      ]
+    },
+    {
+      "tag": "dsa",
+      "patterns": ["How to learn DSA?", "Data structures and algorithms", "DSA roadmap", "How to get better at DSA"],
+      "responses": [
+        "For DSA: master arrays/strings → hashmaps → stacks/queues → linked lists → trees → graphs → DP. Practice consistently and analyze mistakes."
+      ]
+    },
+    {
+      "tag": "web_dev",
+      "patterns": ["How do I start web development?", "Frontend roadmap", "Backend roadmap", "MERN roadmap"],
+      "responses": [
+        "Web dev path: HTML/CSS → JavaScript → React (or similar) → Node/Express (or Django) → Database (Mongo/Postgres) → auth + deployment."
+      ]
+    },
+    {
+      "tag": "ml_ai",
+      "patterns": ["How do I start machine learning?", "ML roadmap", "AI roadmap", "Deep learning basics"],
+      "responses": [
+        "ML path: Python + math basics → Pandas/Numpy → scikit-learn → projects → neural nets (PyTorch/TensorFlow) → deployment."
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": ["How to study effectively?", "Study tips", "How to focus", "How to make notes", "How to revise"],
+      "responses": [
+        "Use active recall + spaced repetition. Study in short sessions (Pomodoro), practice questions daily, and revise weak topics first."
+      ]
+    },
+    {
+      "tag": "exam_prep",
+      "patterns": ["How to prepare for exams?", "Exam strategy", "How to score good marks"],
+      "responses": [
+        "Plan by syllabus: daily targets, previous year papers, and weekly mocks. Track mistakes and revise those topics.",
+        "Focus on high-weightage topics and practice more than reading."
+      ]
+    },
+    {
+      "tag": "resume",
+      "patterns": ["Resume tips", "How to make resume", "What to put in resume", "Resume for students"],
+      "responses": [
+        "Keep it 1 page. Add 2–4 projects with tech + results, list skills used in projects, add GitHub/LinkedIn links, and quantify impact wherever possible."
+      ]
+    },
+    {
+      "tag": "interview",
+      "patterns": ["Interview tips", "How to prepare for interview", "Coding interview", "HR interview"],
+      "responses": [
+        "Interview prep: revise core CS, practice DSA, explain projects clearly, and do mock interviews. For HR: prepare concise stories (STAR method)."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "I feel demotivated", "I want to give up", "I am stressed"],
+      "responses": [
+        "You're not behind — you're building. Do one small task right now (10 minutes). Momentum will come after action.",
+        "Take a short break, then start with the easiest step. Small progress is still progress."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Joke"],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs.",
+        "I would tell you a UDP joke, but you might not get it."
+      ]
+    },
+    {
+      "tag": "stocks",
+      "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+      "responses": ["Here are your stocks!"]
+    }
+  ]
+}

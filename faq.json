@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "q": "How do I start programming as a beginner?",
+      "a": "Start small: pick one language (Python is beginner-friendly), learn basics (variables, loops, functions), then build 2-3 mini projects. Consistency beats speed."
+    },
+    {
+      "q": "How do I prepare for exams effectively?",
+      "a": "Use active recall + spaced repetition: make short notes, practice questions daily, and revise at increasing intervals. Solve previous years papers and track weak topics."
+    },
+    {
+      "q": "How to write a good resume as a student?",
+      "a": "Focus on projects + impact: add 2–4 projects with tech stack and outcomes, list skills you used in projects, keep it one page, and add links (GitHub/LinkedIn)."
+    },
+    {
+      "q": "What is the difference between AI, ML, and Deep Learning?",
+      "a": "AI is the broad field. ML is a subset where systems learn from data. Deep Learning is a subset of ML using neural networks with many layers."
+    },
+    {
+      "q": "How do I stop procrastinating?",
+      "a": "Try the 5-minute start: commit to working for just 5 minutes. Use a timer (Pomodoro 25/5) and remove distractions. Small wins build momentum."
+    }
+  ]
+}

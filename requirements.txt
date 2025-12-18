@@ -1,0 +1,7 @@
+nltk
+numpy
+torch
+# Optional (enables FAQ retrieval fallback)
+scikit-learn
+# UI (Hugging Face Spaces)
+gradio
